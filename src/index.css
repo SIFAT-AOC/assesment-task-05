@@ -1,23 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .container {
   margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 50px;
@@ -29,7 +12,6 @@ code {
   font-size: 30px;
   font-weight: 700;
 }
-
 /* src/App.css */
 
 body {
@@ -37,6 +19,11 @@ body {
   background-color: #f8f9fa;
   margin: 0;
   padding: 20px;
+  height: 100vh; /* Ensure body takes full height */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
 }
 
 h1 {
@@ -55,7 +42,7 @@ th,
 td {
   border: 1px solid #ddd;
   padding: 12px;
-  text-align: center;
+  text-align: left;
 }
 
 th {
@@ -83,6 +70,6 @@ img {
 
 .loading {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em; /* Slightly larger font size */
   color: #007bff;
 }
