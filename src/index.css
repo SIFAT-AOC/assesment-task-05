@@ -16,8 +16,73 @@ code {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 50px;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping */
+}
+
+tr:hover {
+  background-color: #e9ecef; /* Highlight on hover */
+}
+
+img {
+  border-radius: 50%; /* Make avatars circular */
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #007bff;
 }

@@ -35,6 +35,7 @@ const UserTable = () => {
 
   return (
     <div className="container">
+      <h1>User Table </h1>
       <table>
         <thead>
           <tr>
